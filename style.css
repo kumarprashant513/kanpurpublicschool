@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.row1, .row2, .row3, .row4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header{
+    background-color: #266150;
+    color: #fff;
+    padding: .4rem;
+    
+}
+
+.phone, .email,.affiliated{
+    padding-left: 2.5rem;
+}
+
+.affiliated{
+    font-size: 1.2rem;
+}
+
+.social-icon{
+    padding-left: 20%;
+}
+
+.social-icon a{
+    color: #fff;
+}
+
+.logo{
+    width: 20%;
+    padding: 0 5rem;
+    
+}
+.logo img{
+    padding-top: .5rem;
+    height:7rem;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding-right: 1.2rem;
+    color: #47796b;
+}
+
+a:hover{
+    color: orange;
+}
+
+.bg-main{
+    background-image: url(SliderImages/slide7539948.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    position: relative;
+}
+
+button{
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    padding: .7rem 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #fff;
+    
+}
+
+button:hover{
+    background-color: orange;
+    color: #FFF;
+    border: 1px solid orange;
+    transition-duration: .7s;
+}
+
+
+h1,h2,h3{
+    color: #2f2f2f;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+h2{
+    /* padding: 2.5rem; */
+    font-size: 1.7rem;
+}
+
+.about-us{
+    height: 30rem;
+    padding: 0 4.5rem;
+}
+
+.about-img img{
+    height: 24rem;
+}
+
+p{
+    font-size: 0.875rem;
+    line-height: 1.7rem;
+    color: #5d5d5d;
+    text-align: justify;
+    padding: 0 3rem;
+}
+
+
+.gallery ul{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gallery div, .toppers-photo div{
+    background-color: #266150;
+    padding: .5rem .1rem;
+    width: 100%;
+    font-style: italic;
+}
+
+.toppers-photo div{
+    background-color: #1670b5;
+}
+
+.gallery a, .toppers-photo a{
+    color: white;
+}
+
+.gallery img{
+    height: 12rem; 
+}
+
+.topper-10 img, .topper-12 img{
+    height: 35rem;
+    width: 80%;
+    margin-left: 11%;
+}
+
+.toppers-photo ul{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.toppers-photo img{
+    width: 16rem;
+    height: 14rem;
+}
+
+.footer{
+    margin: 4rem 0;
+    padding: 4rem 0;
+    background-color: #000000;
+    
+}
+
+.footer h2, .footer h4, .footer a, .footer p{
+    color: white;
+    text-align: justify;
+}
+
+
+.footer a, .footer p{
+    display: block;
+    font-style: italic;
+}
+
+.aboutus{
+    width: 40%;
+}
+
+
+.address i{
+    color: #f7f7f7;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #f7f7f7;
+    font-size: 1.2857142857142858em;
+    text-align: center;
+    line-height: 3rem;
+    float: left;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.address{
+    padding-top: 4rem;
+}
+
+.quick-links{
+    width: 15%;
+}
+
+.quick-links a{
+    font-size: .8rem;
+}
+
+.footer h2 {
+    text-align: left;
+}
+
+.aboutus h2{
+    padding-left: 3rem;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+
