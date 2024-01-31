@@ -33,10 +33,11 @@
 
     <!-- Navbar -->
 
-    <div class="navbar row2">
+    <div class="navbar row2" id="navigation">
         <div class="items2 logo"><img src="images/logo.jpg" alt=""></div>
-        <div class="items2 menu">
-            <ul>
+        <div class="dropdown" class="items2 menu">
+            <button class="dropbtn"><i class="fa-solid fa-bars" onclick="togglemenu();"></i></button>
+            <ul class="dropdown-content">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Message</a></li>
@@ -54,7 +55,7 @@
     <!-- Main -->
 
     <div class="bg-main row">
-        <span class="btn"><a href=""><button>Contact Us</button></a></span>
+        <span><button class="btn">Contact Us</button></span>
     </div>
 
     <!-- About us section -->
@@ -262,6 +263,9 @@
             </ul>
         </div>
     </div>
+
+
+
 
 
 </body>
