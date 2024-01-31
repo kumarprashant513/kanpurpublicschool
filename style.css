@@ -1,66 +1,80 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+body {
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-.row1, .row2, .row3, .row4{
+.row1,
+.row2,
+.row3,
+.row4 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid black; */
+    */
+    /* border: 2px solid black;
+    /* display: grid;
+       grid-template-columns: repeat(auto-fill),minmax(150px,1fr); */
 }
 
-.row::after{
+.row::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.header{
+.header {
     background-color: #266150;
     color: #fff;
     padding: .4rem;
-    
+
 }
 
-.phone, .email,.affiliated{
+.phone,
+.email,
+.affiliated {
     padding-left: 2.5rem;
 }
 
-.affiliated{
+.affiliated {
     font-size: 1.2rem;
 }
 
-.social-icon{
+.social-icon {
     padding-left: 20%;
 }
 
-.social-icon a{
+.social-icon a {
     color: #fff;
 }
 
-.logo{
+.logo {
     width: 20%;
     padding: 0 5rem;
-    
-}
-.logo img{
-    padding-top: .5rem;
-    height:7rem;
+
 }
 
-.menu{
+.logo img {
+    padding-top: .5rem;
+    height: 7rem;
+}
+
+.menu {
     font-family: 'Montserrat', sans-serif;
 }
 
-li,a{
+.dropbtn {
+    display: none;
+}
+
+li,
+a {
     text-decoration: none;
     list-style-type: none;
     display: inline;
@@ -68,11 +82,11 @@ li,a{
     color: #47796b;
 }
 
-a:hover{
+a:hover {
     color: orange;
 }
 
-.bg-main{
+.bg-main {
     background-image: url(SliderImages/slide7539948.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +95,7 @@ a:hover{
     position: relative;
 }
 
-button{
+.btn {
     position: absolute;
     left: 48%;
     top: 50%;
@@ -92,10 +106,10 @@ button{
     background-color: transparent;
     border: 1px solid #FFF;
     color: #fff;
-    
+
 }
 
-button:hover{
+.btn:hover {
     background-color: orange;
     color: #FFF;
     border: 1px solid orange;
@@ -103,107 +117,127 @@ button:hover{
 }
 
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     color: #2f2f2f;
     text-align: center;
     padding: 1rem 0;
+
 }
 
-h1{
+h1 {
     font-weight: 600;
     font-size: 2rem;
     padding: 3rem;
 }
 
-h2{
-    /* padding: 2.5rem; */
+h2 {
+    padding: 2.5rem;
     font-size: 1.7rem;
 }
 
-.about-us{
-    height: 30rem;
+.about-us {
+
+    /* height: 30rem; */
     padding: 0 4.5rem;
+
 }
 
-.about-img img{
+.about-img img {
+    margin: 0;
     height: 24rem;
 }
 
-p{
+.about-content {
+    height: 5rem;
+    margin-bottom: 22rem;
+}
+
+p {
     font-size: 0.875rem;
     line-height: 1.7rem;
     color: #5d5d5d;
     text-align: justify;
     padding: 0 3rem;
+
 }
 
 
-.gallery ul{
+.gallery ul {
     display: flex;
     text-align: center;
     overflow: hidden;
 }
 
-.gallery div, .toppers-photo div{
+.gallery div,
+.toppers-photo div {
     background-color: #266150;
     padding: .5rem .1rem;
     width: 100%;
     font-style: italic;
 }
 
-.toppers-photo div{
+.toppers-photo div {
     background-color: #1670b5;
 }
 
-.gallery a, .toppers-photo a{
+.gallery a,
+.toppers-photo a {
     color: white;
 }
 
-.gallery img{
-    height: 12rem; 
+.gallery img {
+    height: 12rem;
 }
 
-.topper-10 img, .topper-12 img{
+.topper-10 img,
+.topper-12 img {
     height: 35rem;
     width: 80%;
     margin-left: 11%;
 }
 
-.toppers-photo ul{
+.toppers-photo ul {
     display: flex;
     text-align: center;
     overflow: hidden;
 }
 
-.toppers-photo img{
+.toppers-photo img {
     width: 16rem;
     height: 14rem;
 }
 
-.footer{
-    margin: 4rem 0;
-    padding: 4rem 0;
+.footer {
+    margin: 4rem 0 !important;
+    padding: 4rem 0 !important;
     background-color: #000000;
-    
+
+
 }
 
-.footer h2, .footer h4, .footer a, .footer p{
+.footer h2,
+.footer h4,
+.footer a,
+.footer p {
     color: white;
     text-align: justify;
 }
 
 
-.footer a, .footer p{
+.footer a,
+.footer p {
     display: block;
     font-style: italic;
 }
 
-.aboutus{
+.aboutus {
     width: 40%;
 }
 
 
-.address i{
+.address i {
     color: #f7f7f7;
     width: 45px;
     height: 45px;
@@ -216,29 +250,163 @@ p{
     margin-bottom: 0.7em;
 }
 
-.address{
+.address {
     padding-top: 4rem;
 }
 
-.quick-links{
+.quick-links {
     width: 15%;
 }
 
-.quick-links a{
+.quick-links a {
     font-size: .8rem;
 }
 
 .footer h2 {
     text-align: left;
+    margin-bottom: 1.2rem;
+    padding: 0 !important;
 }
 
-.aboutus h2{
-    padding-left: 3rem;
-    margin-bottom: .5rem;
+.aboutus h2 {
+    margin-left: 3rem;
 }
 
 
+/* Resposive  */
 
+@media screen and (max-width:768px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(auto-fill), minmax(4, 1fr);
+        position: relative;
+    }
 
+    .header .items4 {
+        padding: .5rem;
+        font-size: 1rem;
+        text-align: justify;
+    }
 
+    .navbar {
+        height: 9rem;
 
+    }
+
+    .logo img {
+        position: absolute;
+        left: 3rem;
+        top: 10rem;
+        height: 7.5rem;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn {
+        font-size: 1.5rem;
+        /* position: relative; */
+        color: white;
+        background-color: #266150;
+        border: none;
+        padding: 1.2rem;
+        /* left: 3rem; */
+        border-radius: 1rem;
+        display: block;
+        margin-left: 15rem;
+
+    }
+
+    .dropdown-content {
+        position: absolute;
+        font-size: 1.2rem;
+        font-weight: 600;
+        z-index: 1;
+        font-style: italic;
+        right: 3rem;
+        line-height: .2rem;
+        text-align: center;
+        background-color: white;
+        display: none;
+
+    }
+
+    .dropdown-content a {
+        display: block;
+        padding: 1rem 2.5rem;
+        color: black;
+
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+
+    }
+
+    .dropdown-content a:hover {
+        color: white;
+        background-color: #266150;
+    }
+
+    .bg-main {
+        position: relative;
+        height: 20rem;
+    }
+
+    .btn {
+        position: absolute;
+        left: 35%;
+    }
+
+    .row3,
+    .row2,
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-img img {
+        height: 14rem;
+    }
+
+    .about-content {
+        height: 15rem;
+        width: 140%;
+        margin-bottom: 28rem;
+        margin-top: 2rem;
+    }
+
+    p {
+        padding: 0 .2rem;
+        font-size: .9rem;
+
+    }
+
+    .row3 p {
+        padding: 0 1.6rem;
+    }
+
+    .topper-10,
+    .topper-12 {
+        width: 110%;
+
+    }
+
+    .aboutus,
+    .address,
+    .quick-links {
+        width: 100%;
+    }
+
+    .address {
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+    }
+
+    .quick-links {
+
+        padding: 4rem 1.5rem;
+    }
+
+}
